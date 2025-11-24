@@ -1,0 +1,45 @@
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.bar {
+  list-style: none;
+  display: flex;
+  padding: 0px 4px;
+}
+.bar li {
+  padding: 0px 4px;
+}
+.bar li a {
+  color: white;
+  text-decoration: none;
+}
+.dropdown {
+  position: relative;
+}
+.dropmenu {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  display: none;
+  left: -20px;
+}
+.dropmenu li{
+    padding: 2px ;
+}
+.dropmenu li a{
+    color: black;
+    text-decoration: none;
+}
+.dropdown:hover .dropmenu{
+    display: block;
+}

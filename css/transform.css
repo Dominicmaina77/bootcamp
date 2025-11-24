@@ -1,0 +1,30 @@
+.demo{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    transition: 2s ease ;
+}
+.demo:hover{
+    transform: translate(150px, 200px);
+/* translate funtion moves an element from its current position */
+}
+.scale{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    transition: 2s ease ;
+}
+.scale:hover{
+    transform: scale(0.7, 0.5);
+    /* scale increses or decreases the size of an element */
+}
+.rotate{
+   background-color: brown;
+   height: 300px;
+   width: 300px;
+   transition: 2s ease ;
+}
+.rotate:hover{
+    transform: rotate(-45deg);
+    /* rotate an element */
+}

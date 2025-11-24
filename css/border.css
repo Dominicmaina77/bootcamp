@@ -1,0 +1,12 @@
+.demo{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    /* border-style: dotted; */
+    /* border-width: 2px; */
+    /* border-color: black; */
+    /* border-radius: 100px; */
+    border-bottom-left-radius: 50px;
+    border: solid 2px black;
+
+}

@@ -1,0 +1,25 @@
+/* variable is a conatainer that stores value */
+/* we have global and local variables */
+/* in css variables are defined using -- */
+/* they use the var() function*/
+/* to activate a global variable we use :root  selector*/
+:root {
+  --bg: goldenrod;
+  --text: white;
+  --size: 20px;
+  --height: 200px;
+  --width: 200px;
+}
+.vary {
+  background-color: var(--bg);
+  height: var(--height);
+  width: var(--width);
+}
+h5{
+    color: var(--text);
+    font-size: var(--size);
+}
+p{
+    --color: red;
+    color: var(--color);
+}

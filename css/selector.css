@@ -1,0 +1,21 @@
+/* css selectors are used to find the html elements you want to style */
+/* the most common css selectors are id, class, tag */
+/* id, class and tags are called simple selectors */
+body{
+    background-color: black;
+}
+ul li{
+    color: aqua;
+}
+
+h1{
+    color: green;
+}
+/* class */
+.demo{
+    color: blue;
+}
+/* id */
+#book{
+    color: yellowgreen;
+}

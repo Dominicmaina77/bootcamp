@@ -1,0 +1,15 @@
+.block{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+}
+.view{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+
+body{
+    display: flex;
+    
+}

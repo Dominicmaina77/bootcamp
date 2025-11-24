@@ -1,0 +1,17 @@
+/* transition allow you to add a smooth transition to an element */
+.transit{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    /* transition-duration: 2s; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-delay: 1s; */
+    transition: 2s ease-in-out 1s;
+    box-shadow: 2px 2px 10px black;
+}
+.transit:hover{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    box-shadow: 5px 5px 20px black;
+}

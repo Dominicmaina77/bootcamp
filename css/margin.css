@@ -1,0 +1,16 @@
+.demo{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.value{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    /* margin-top: 10px; */
+    /* margin-left: 70px; */
+    margin: 100px 50px 75px 200px;
+    padding: 200px 50px 75px 200px;
+}   

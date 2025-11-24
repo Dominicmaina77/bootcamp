@@ -1,0 +1,10 @@
+.shadow{
+    height: 200px;
+    width: 200px;
+    background-color: saddlebrown;
+    box-shadow: 5px 10px 10px black, -5px -10px 10px royalblue;
+}
+.text{
+    text-shadow: 2px 5px 2px black, -2px 5px 2px royalblue;
+    color: green;
+}

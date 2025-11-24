@@ -1,0 +1,17 @@
+/* pseudo class is a keyword that can be added to a selector to define
+ a style for a specific state of the element */
+ /* 1.first-child */
+ .div1 p:first-child{
+    color: red;
+ }
+ .div3 p:last-child{
+    color: green;
+ }
+ .div1 p:nth-child(even){
+    color: blue;
+ }
+ .div1 p:hover{
+    color: purple;
+    font-size: 15px;
+    text-decoration: underline;
+ }

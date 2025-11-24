@@ -1,0 +1,39 @@
+/* css position is used to position the elements on the page */
+/* 1. static (default) */
+/* 2.relative */
+/* 3.absolute */
+/* 4.fixed */
+/* 5.sticky */
+/* these position work with direction :top, bottom, left, right */
+.relative{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    /* top: 250px; */
+    /* left: 250px; */
+}
+.absolute{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    /* top: 50px; */
+    /* left: 50px; */
+}
+.fixed{
+    background-color: aqua;
+    position: fixed;
+    /* top: 70%; */
+    /* left: 50%; */
+    height: 100px;
+    width: 100px;
+}
+.sticky{
+    background-color: brown;
+    position: sticky;
+    top: 20px;
+    left: 350px;
+    height: 300px;
+    width: 300px;
+}

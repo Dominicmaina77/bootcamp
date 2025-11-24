@@ -1,0 +1,13 @@
+/* css colors are speicfied using the predefined color name or using rgb,rgba,hex */
+/* color name */
+.demo{
+    color: cadetblue;
+}
+/* rgb  , rgba*/
+body{
+    background-color: rgba(120, 200, 75, 1);
+}
+/* hex  mixture of letters and numbers a-f, 0-9 and precedeed by #*/
+.try{
+    color: #ffffff;
+}
